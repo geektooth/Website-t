@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant Mohurley</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Chart.js for Interactive Visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Chart.js for Interactive Visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Dashboard Polish Elements -->
+    <div id="scroll-progress"></div>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <canvas id="network-bg"></canvas>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="Ved.png" alt="my face" class="profile-pic">
+                <h1>Vedant Ishwar Mohurley</h1>
+                <p class="tagline">Computer Science | Data Science | Finance | Information Systems</p>
+            </div>
+
+            <nav class="social-links">
+                <a href="https://www.linkedin.com/in/vedantmohurley/" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="mailto:meetvedantm@gmail.com"><i class='bx bx-envelope'></i></a>
+                <a href="Vedantresume.pdf" download><i class='bx bx-file'></i></a>
+                <a href="https://www.kaggle.com/vedantishwarmohurley" target="_blank"><i
+                        class='bx bx-code-block'></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2><i class='bx bx-user'></i> About Me</h2>
+                <p>Hello there 👋 <br> I’m Vedant. I enjoy working with data, building smart tools, and finding simple
+                    answers to complex problems.
+                    Lately, I’ve been diving into machine learning and GenAI, just trying to keep up with all the cool
+                    stuff happening in tech.
+                    I’m all about learning, creating, and turning ideas into real impact.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="glitch-hover" data-value="Skills"><i class='bx bx-server'></i> Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category tilt-card">
+                        <h3><i class='bx bx-code-alt'></i> Programming</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">C</span>
+                        </div>
+                    </div>
+                    <div class="skill-category tilt-card">
+                        <h3><i class='bx bx-brain'></i> Technical & AI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill">Keras</span> <span class="skill-pill">NumPy</span> <span
+                                class="skill-pill">Pandas</span> <span class="skill-pill">TensorFlow</span> <span
+                                class="skill-pill">PyTorch</span> <span class="skill-pill">SQL/MySQL</span> <span
+                                class="skill-pill">Data Manipulation</span> <span class="skill-pill">Data
+                                Visualization</span> <span class="skill-pill">Machine Learning</span> <span
+                                class="skill-pill">Web Scraping</span> <span class="skill-pill">Data Mining</span> <span
+                                class="skill-pill">NLP</span> <span class="skill-pill">HuggingFace</span>
+                        </div>
+                    </div>
+                    <div class="skill-category tilt-card">
+                        <h3><i class='bx bx-data'></i> Data & Analytics</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill">SQL (Advanced)</span> <span class="skill-pill">Python</span> <span
+                                class="skill-pill">Advanced Excel</span> <span class="skill-pill">Power BI</span> <span
+                                class="skill-pill">Tableau</span> <span class="skill-pill">Operational Dashboards</span>
+                            <span class="skill-pill">Reporting Framework Design</span>
+                        </div>
+                    </div>
+                    <div class="skill-category tilt-card">
+                        <h3><i class='bx bx-line-chart'></i> Financial Analysis & Modeling</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill">FP&A</span> <span class="skill-pill">Budgeting</span> <span
+                                class="skill-pill">Forecasting</span> <span class="skill-pill">Variance Analysis</span>
+                            <span class="skill-pill">Scenario Modeling</span> <span class="skill-pill">Risk
+                                Assessment</span> <span class="skill-pill">Capital Planning</span> <span
+                                class="skill-pill">Cash Flow Forecasting</span>
+                        </div>
+                    </div>
+                    <div class="skill-category tilt-card">
+                        <h3><i class='bx bx-smile'></i> Personal</h3>
+                        <div class="skill-tags">
+                            <span class="skill-pill">Love of learning</span> <span class="skill-pill">Capturing
+                                moments</span> <span class="skill-pill">Time management</span> <span
+                                class="skill-pill">Communication</span> <span class="skill-pill">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2><i class='bx bxs-graduation'></i> Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content tilt-card">
+                            <h3>2024 - MS in Information Systems</h3>
+                            <p>University of Maryland Baltimore County (2022-2024)</p>
+                            <p>Specialization in Data Science and Analytics</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content tilt-card">
+                            <h3>2022 - B.E in Computer Science</h3>
+                            <p>Rashtrasant Tukadoji Maharaj Nagpur University (2018-2022)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="section">
+            <div class="container">
+                <h2><i class='bx bx-globe'></i> Languages</h2>
+                <div class="language-grid">
+                    <div class="language-item">
+                        <span class="language-name">Hindi</span>
+                        <span class="language-level">Native proficiency</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">English</span>
+                        <span class="language-level">Bilingual proficiency (C1 Advanced)</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Spanish</span>
+                        <span class="language-level">Limited working proficiency</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <div class="container">
+                <h2><i class='bx bx-library'></i> Publications</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content tilt-card">
+                            <h3><i class='bx bx-book'></i> Books (2026)</h3>
+                            <ul class="publication-list">
+                                <li><strong>The SQL Blueprint</strong> - Raindrops</li>
+                                <li><strong>Powering Decisions with Machine Learning</strong> - Raindrops</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content tilt-card">
+                            <h3><i class='bx bx-file'></i> Research Papers (2026)</h3>
+                            <ul class="publication-list">
+                                <li><strong>Early Detection of Anxiety and Depression via Large Language Models using
+                                        Clinical texts and Patient Journals</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <p>In my leisure time, I enjoy exploring music and ensuring adequate rest to stay productive.</p>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="glitch-hover" data-value="Projects"><i class='bx bx-rocket'></i> Projects</h2>
+
+
+                <div class="project-grid">
+                    <div class="project-category tilt-card">
+                        <h3>Credit Card Fraud Detection Using Machine Learning</h3>
+
+                        <p class="explanation">Enhanced accuracy by <span class="score-change">+4.95%</span> through
+                            strategic feature selection.</p>
+                    </div>
+                    <div class="project-category tilt-card">
+                        <h3>911 Baltimore Crime Data analysis</h3>
+                        <p class="explanation">Conducted crime type and temporal analysis using Python and Tableau,
+                            delivering actionable insights through dashboards, aiding public safety decision-making with
+                            80% accuracy.</p>
+                    </div>
+                    <section id="terminal-section" class="section">
+                        <div class="container">
+                            <h2><i class='bx bx-terminal'></i> Interactive Terminal</h2>
+                            <div class="terminal-wrapper tilt-card">
+                                <div class="terminal-header">
+                                    <div class="terminal-buttons">
+                                        <span class="btn close"></span>
+                                        <span class="btn minimize"></span>
+                                        <span class="btn expand"></span>
+                                    </div>
+                                    <div class="terminal-title">vedant@portfolio:~</div>
+                                </div>
+                                <div class="terminal-body" id="terminal-output">
+                                    <div class="terminal-line"><span class="prompt">vedant@portfolio:~$</span> <span
+                                            class="typing-text">Welcome to my portfolio! Type 'help' to see available
+                                            commands.</span></div>
+                                </div>
+                                <div class="terminal-input-line">
+                                    <span class="prompt">vedant@portfolio:~$</span>
+                                    <input type="text" id="terminal-input" autocomplete="off" spellcheck="false"
+                                        autofocus>
+                                </div>
+                                <div class="terminal-quick-commands">
+                                    <span>Quick Commands:</span>
+                                    <button class="cmd-btn" data-cmd="whoami">whoami</button>
+                                    <button class="cmd-btn" data-cmd="skills">skills</button>
+                                    <button class="cmd-btn" data-cmd="contact">contact</button>
+                                    <button class="cmd-btn" data-cmd="clear">clear</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Vedant Mohurley</p>
+        </div>
+    </footer>
+</body>
+
+</html>
