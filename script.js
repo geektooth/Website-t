@@ -365,7 +365,7 @@ function setupTerminal() {
     'help': 'Available commands: \n- whoami \n- skills \n- contact \n- clear',
     'whoami': 'Vedant Ishwar Mohurley. Data Scientist & Information Systems Graduate building intelligent data pipelines and user interfaces.',
     'skills': 'Languages: Python, SQL, R, JavaScript, C.\nFrameworks: TensorFlow, PyTorch, Chart.js, Pandas.\nTools: Tableau, PowerBI, Excel.',
-    'contact': 'Email: your-email@example.com\nLinkedIn: linkedin.com/in/vedantmohurley\nGitHub: github.com/your-username',
+    'contact': 'Email: meetvedantm@gmail.com\nLinkedIn: linkedin.com/in/vedantmohurley\nGitHub: github.com/geektooth',
     'sudo': 'Nice try. This incident will be reported to santa.',
     'ls': 'projects/  skills/  experience/  about.txt'
   };
